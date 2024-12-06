@@ -1,0 +1,11 @@
+div{
+    background-color: rgb(172, 199, 199);
+    color: rgb(67, 80, 80);
+    width: 300px;
+}
+
+span{
+    font-size: 50px;
+    color: rgb(194, 76, 76);
+    background-color: black;
+}

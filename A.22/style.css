@@ -1,0 +1,19 @@
+img{
+    width: 1000px;
+}
+
+@media (max-width: 600px){
+    body{
+        background-color: lightblue;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 300px){
+    body{
+        background-color: green;
+    }
+}

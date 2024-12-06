@@ -1,0 +1,26 @@
+table{
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: rgb(158, 223, 158);
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.blue{
+    background-color: blue;
+}
+.gray{
+    background-color: rgb(238, 235, 235);
+}

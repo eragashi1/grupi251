@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(54, 52, 52);
+    border: 2px solid white;
+    height: 50px;
+}
+
+.menu{
+    border: 2px solid white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.article{
+    background-color: gray;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    
+}
+
+.article-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.article-body{
+    color: rgb(24, 23, 23);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 10px ;
+}
+
+.footer-item{
+    padding: 5px 10px;
+    border: 2px solid white;
+}

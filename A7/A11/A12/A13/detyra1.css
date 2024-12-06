@@ -1,0 +1,12 @@
+p{
+    text-align: center;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+    color: blueviolet;
+    text-decoration: underline overline;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    line-height: 50px;
+}

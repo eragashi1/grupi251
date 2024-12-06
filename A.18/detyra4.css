@@ -1,0 +1,14 @@
+.outer-box{
+    background-color: rgb(136, 136, 168);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.inner-box{
+    background-color: rgb(201, 126, 201);
+    left: 20px;
+    width: 30px;
+    height: 30px;
+}
+

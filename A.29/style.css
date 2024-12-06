@@ -1,0 +1,151 @@
+/* unvisited */
+/* a:link{
+    color: #FF0000;
+} */
+
+/* visited */
+/* a:visited{
+    color: #0000ff;
+} */
+
+/* a:hover{
+    color: yellow;
+} */
+
+/* selected link */
+/* a:active{
+    color: green;
+} */
+
+/* p:first-line{
+    background-color: red;
+} */
+
+/* .desc::before{
+    content: "Dje ka qene 26 nentori";
+    color: red;
+}
+
+.desc::after{
+    content: "Dje ka qene 26 nentori";
+    color: red;
+} */
+
+
+/* ushtrimi */
+/* .klasa1::after{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+    content: "";
+}
+
+.klasa1::before{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    display: inline-block;
+    content: "";
+} */
+
+
+/* body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 0 10px;
+    position: relative;
+    animation: pulse 1s ease infinite;
+}
+
+
+
+@keyframes pulse {
+    0%{
+        transform: rotate(45deg) scale(0.75);
+    }
+
+    50%{
+        transform: rotate(45ged) scale(1);
+    }
+
+    100%{
+        transform: rotate(45deg) scale(0.75);
+    }
+}
+
+.heart::after,
+.heart::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: pink;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.heart::before{
+    top: 0;
+    left: -75px;
+}
+
+.heart::after{
+    top: -75px;
+    left: 0;
+} */
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart{
+    height: 150px;
+    width: 150px;
+    margin: 0 10px;
+    background: red;
+    position: relative;
+    animation: pulse 1s ease infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: rotate(45deg) scale(0.75);
+    }
+    50%{
+        transform:  rotate(45deg) scale(1);
+    }
+    100%{
+        transform:  rotate(45deg) scale(0.75);
+    }
+}
+
+.heart:before,
+.heart:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.heart:before{
+    top: 0;
+    left: -75px;
+}
+.heart:after{
+    top:-75px;
+    left: 0;
+}

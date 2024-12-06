@@ -1,0 +1,38 @@
+.foto{
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+.korniza{
+   border: 2px solid black;
+   border-radius: 10px;
+   padding: 20px;
+   width: 300px;
+   margin: auto;
+   text-align: center;
+   background-color: rgb(146, 128, 105);
+
+}
+
+.matrix{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(110, 100, 44);
+    transform: matrix();
+}
+
+.box:hover{
+    transform: rotateX(45deg) rotateY(45deg) translateZ(100px);
+}
+
+.container{
+    perspective: 500px ;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+

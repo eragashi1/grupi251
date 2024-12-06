@@ -1,0 +1,22 @@
+table{
+   border-bottom: 1px solid rgba(0,0,0,0.1);
+   width: 1000px; 
+   font: #a9a9b5;
+   border-collapse: collapse;
+   overflow: hidden;
+   text-align: center;
+   box-shadow: 0 0 10px 0 #c5d3f6;
+   
+}
+
+table, th, td{
+    border: none;
+}
+
+thead{
+    background-color: #6d7ae0;
+}
+
+tbody{
+    background-color: #fafafa;
+}
